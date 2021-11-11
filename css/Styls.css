@@ -1,0 +1,50 @@
+#landing {
+  background-image: url(/Assets/landingsection/Blacklanding.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 50px;
+  width: 100%;
+  height: 100vh;
+}
+.navbar-brand {
+  margin-left: 50px;
+}
+
+.nav-item {
+  justify-items: right !important;
+}
+#navbarNav {
+  justify-content: right;
+  width: 100%;
+}
+.bg-light {
+  background-color: black !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: white;
+  font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link.active:hover {
+  color: purple;
+  animation-name: flavour;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+}
+@keyframes flavour {
+  0% {
+    color: white;
+  }
+  50% {
+    color: purple;
+  }
+  100% {
+    color: white;
+  }
+}
+nav {
+  position: sticky !important;
+  top: 0%;
+  width: 100%;
+  z-index: 5;
+}
